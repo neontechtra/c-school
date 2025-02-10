@@ -85,3 +85,7 @@ when you use `floats` its good habit to append a `f`, it will still compile but 
 
 profit = 2150.48f;
 
+###### Initialization
+Try an initialize your variables so they dont get full of junk data
+- cool fact you can delcare in one line if you want
+`int height = 8, length = 12, width = 10;`
