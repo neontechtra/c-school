@@ -90,6 +90,20 @@ Try an initialize your variables so they dont get full of junk data
 - cool fact you can delcare in one line if you want
 `int height = 8, length = 12, width = 10;`
 
+###### Constants
+
+_Macro Definition_
+- We can use `#define` which is a preprocessing directive (just like `#include`)
+- We also do not need a `;` at the end
+eg.
+`#define INCHES_PER_POUND 166`
+- allowing us to have a constant of 166 when we say INCHES_PER_POUND
+
+or
+
+`#define RECIPROCAL_OF_PI (1.0f / 3.14159f)`
+
+- Using captials for macro names is common convention
 
 #### Functions
 
