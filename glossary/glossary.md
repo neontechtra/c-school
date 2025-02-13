@@ -89,3 +89,19 @@ profit = 2150.48f;
 Try an initialize your variables so they dont get full of junk data
 - cool fact you can delcare in one line if you want
 `int height = 8, length = 12, width = 10;`
+
+
+#### Functions
+
+###### Printf
+- ensure you have the write call `%d` for int `%f` for float
+- check your `;`
+
+###### scanf
+- apparently kinda sketchy and dangerous
+- same as print of with the `%f`
+
+basic tldr? `scanf("%f", &x);` 
+- reads a float balue and stores into x
+
+
