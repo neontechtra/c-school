@@ -118,4 +118,6 @@ or
 basic tldr? `scanf("%f", &x);` 
 - reads a float balue and stores into x
 
+###### Good things to note
 
+C truncates the result when two integers are divided, 5/9 would therefore be 0, if we want the to use decimal values we will need to use floats `(5.0f / 9.0f)`
