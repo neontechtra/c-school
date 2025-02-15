@@ -121,3 +121,24 @@ basic tldr? `scanf("%f", &x);`
 ###### Good things to note
 
 C truncates the result when two integers are divided, 5/9 would therefore be 0, if we want the to use decimal values we will need to use floats `(5.0f / 9.0f)`
+
+###### Identifiers
+
+"what we call variables, functions, macros, entities etc"
+
+legal examples:
+`times10` `get_next_char` `_done`
+
+not legal
+`10times` `get-next-char`
+- identifiers must begin with a letter or underscore
+- cant contain minus signs `-`
+- Can also use cases as C is case sentitive `job`, `Job` etc.
+
+due to the case sensitivity some programmers avoid underscores and use camel case:
+`symbolTable` `currentPage` `nameAndAddress`
+
+There are some `keywords` that cant be used as identifiers
+[list here](https://www.geeksforgeeks.org/keywords-in-c/)
+
+
