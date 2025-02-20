@@ -141,4 +141,13 @@ due to the case sensitivity some programmers avoid underscores and use camel cas
 There are some `keywords` that cant be used as identifiers
 [list here](https://www.geeksforgeeks.org/keywords-in-c/)
 
+#### Notes:
+
+With "Sizeof()":
+The size of an int is 4 bytes
+The size of a float is 4 bytes
+The size of a double is 8 bytes
+The size of a char is 1 byte
+
+
 
